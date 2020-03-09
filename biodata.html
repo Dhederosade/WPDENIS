@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROFILKU</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <style>
+    #animation {
+        height: 120px;
+        width: 90px;
+        background : url('animasi.png');
+        animation: loncat 5s steps(6) infinite;
+    }
+    @keyframes loncat {
+        0%{background-position :0px 0px; transform: translateX(0px);}
+          100%{background-position : -600px 0px; transform: translateX(1300px);}
+    }
+    </style>
+</head>
+<body>
+    <h1 align = "center">Biodata</h1>
+    <table width="745" border="1" cellspacing="0" cellspadding="5" align="center">
+        <tr align="center" bgcolor ="#CD5C5C">
+        <td width="232"> PHOTO</td>
+        <td width="174"> DATA PROFIL</td>
+        <td width="353"> KETERANGAN</td>
+    </tr>
+    <tr>
+        <td rowspan="10" align="center"><img src ="IMG-20170115-WA0010-1.jpg" width="230" height ="230"></td>
+        <td> Nama Lengkap</td>
+        <td> Denis Oktaviano</td>
+        
+    </tr>
+    <tr>
+        <td> TTL </td>
+        <td> Tegal, 27 Oktober 2000</td>
+    </tr>
+    <tr>
+        <td> Jenis Kelamin</td>
+        <td> Laki-laki </td>
+    </tr>
+    <tr>
+        <td> Agama</td>
+        <td> Islam</td>
+    </tr>
+    <tr>
+        <td> Alamat</td>
+        <td> JL. Salak No.32 Kota Tegal</td>
+    </tr>
+    </table><br><br>
+    <center>
+        <a class="contoh-link" target="blank" href="https://www.youtube.com/channel/UC8erEKXGsoc5yoJWpmiBzmA/featured">My Youtube !</a><br><br><br>
+        <iframe src='https://www.sociablekit.com/app/embed/35630' frameborder='0' width='100%' height='1000'></iframe>
+    </center>
+    <div id="animation"></div>
+</body>
+</html>
